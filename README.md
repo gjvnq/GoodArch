@@ -11,6 +11,9 @@ Some ideas of a new architecture of computers that actually make some sense.
   5. **Composability**: as much as possible, it should be a live system that the user can extend and modify as they see fit (like SmallTalk).
   6. **Accessiblity**: as much as possible, it should be possible to use the computer with only a keyboard and TTS.
   7. **Performance**: no time wasted with useless calculations and "fancy but unusable UI". Also multi-thread by default.
+  
+Provide both an OS (Operating System) and an OE (Operating Environment) to help with cross-compatibility.
+
 
 ## Inspirations
 
