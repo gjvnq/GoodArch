@@ -36,6 +36,8 @@ Some ideas of a new architecture of computers that actually make some sense.
 ## Main mistakes to avoid
 
   * Error codes that are valid ids (see [fork() can fail: this is important](https://rachelbythebay.com/w/2014/08/19/fork/)).
+  * Any stack poisoning or mismanagment.
+  * Manual memory managment.
 
 ## Main vulnerabilities to avoid
 
