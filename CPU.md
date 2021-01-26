@@ -3,6 +3,7 @@
 ## Core "wishlist"
 
   * Few instructions.
+  * No out of order execution or branch prediction. (but maybe branch instructions may include a bit indicating wheter it is more likely that it will branch than not)
   * Large and numerous registers
     * Makes things easier and helps with using large IDs (such as UUIDs) for almost everything.
   * Stack protection against stupid software (or malware via plugins)
