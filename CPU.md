@@ -19,4 +19,4 @@
   * Overflows don't necessairly trigger an interrupt.
   * OS can partially control the CPU cache. (will either prevent or agument things HeartBleed)
   * Probably no floating point nor integer division and multiplication for the first version.
-  * Harware level ICP. Maybe something like ```sendmsg $pid $addr $size``` which copied the memory between ```$addr``` and ```$addr+$size``` to a special place on the recieving process (```$pid```) memory (maybe some memory pages specific to message recieving).
+  * Harware level ICP help. (Maybe the kernel sets some arbitrary range that the process is allowed to write to via special registers that only ring 0 can write to)
