@@ -3,6 +3,7 @@
 ## Core "wishlist"
 
   * Few instructions.
+  * "Hidden registers" to help with virtual instructions.
   * No out of order execution or branch prediction.
   * Branch instructions have a field for the compiler to tell the CPU if the instruction will likely branch.
   * Large and numerous registers
