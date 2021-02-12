@@ -7,6 +7,7 @@
  * Force a client server model for applications.
  * [Object browser](https://wiki.c2.com/?ObjectBrowser)?
  * What if applications merely provided "APIs" for the user to interact with?
+ * Separate the ideas of copying and cloning. Perhaps call it regular copy and entangled copy (i.e. hardlink).
 
 ## Mouse
 
