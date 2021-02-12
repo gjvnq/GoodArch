@@ -20,3 +20,12 @@
   * OS can partially control the CPU cache. (will either prevent or agument things HeartBleed)
   * Probably no floating point nor integer division and multiplication for the first version.
   * Harware level ICP help. (Maybe the kernel sets some arbitrary range that the process is allowed to write to via special registers that only ring 0 can write to)
+
+## Memory Layout
+
+| Prefix | Name             | Details                                                                                  |
+|--------|------------------|------------------------------------------------------------------------------------------|
+| 00     | Process Stack    | Full access only for debuggers, other process can only read and write the current frame. |
+| 01     | Process Heap     |                                                                                          |
+| 10     | Real RAM         |                                                                                          |
+| 11     | Memory Mapped IO | Hard drive, graphics, network, etc.                                                      |
