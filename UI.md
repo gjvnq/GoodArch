@@ -4,6 +4,9 @@
  * Possibly use a 3D mouse to move between windows that overlap each other.
  * Maybe use 3D grids of icons to represent files, icons, etc.
  * Maybe actor based framework.
+ * Force a client server model for applications.
+ * [Object browser](https://wiki.c2.com/?ObjectBrowser)?
+ * What if applications merely provided "APIs" for the user to interact with?
 
 ## Mouse
 
