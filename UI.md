@@ -13,3 +13,11 @@
 
   * If 3 buttons: select, move and options/menu.
     * E.g. you can't move an object by keeping left clicked, you need to have middle clicked.
+
+## Client-Server Model
+
+  * Lower latency as calculations are done on the server.
+  * Allows windows to be seamlessly moved to other computers.
+  * Allow access to resources (e.g. files) both of the client and the server.
+    * Either different "schemas", e.g.: ```file-srv:///usr/app``` and ```file-clt:///home/user```
+    * Or different subroots, e.g.: ```/client``` and ```/server```
