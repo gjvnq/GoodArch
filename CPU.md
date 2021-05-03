@@ -20,6 +20,7 @@
   * OS can partially control the CPU cache. (will either prevent or agument things HeartBleed)
   * Probably no floating point nor integer division and multiplication for the first version.
   * Harware level ICP help. (Maybe the kernel sets some arbitrary range that the process is allowed to write to via special registers that only ring 0 can write to)
+  * Distinguish NZ (non zero jumps) from if true jumps. Basically, `True` is 0b0101... and `False` is 0b1010... (or something like this)
 
 ## Memory Layout
 
