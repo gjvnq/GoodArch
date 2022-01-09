@@ -23,6 +23,7 @@ Provide both an OS (Operating System) and an OE (Operating Environment) to help 
 ## Core Considerations/Ideas
 
   * Async syscalls with IO rings. (E.g. when reading a file, the application send the file id. The OS then returns a pointer to a buffers and fills said buffer asynchronously and sends a signal when it's done)
+  * Five default "I/O files": STDIN (standard input), STDOUT (standard output), STDERR (standard error), STDWRN (standard warning), STDDBG (standard debug).
   * UUIDs and URIs for almost everything.
   * Computers shared by many people ho don't trust each other.
   * Networked "by default": assume that the computer will be using networked resources most of time but over an unreliable network. Also assume hardware may be shared over the network.
